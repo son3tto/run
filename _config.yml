@@ -1,8 +1,8 @@
 name: "Run"
 description: "专注润学"
 
-url: 
-baseurl: 
+url: https://jingwendom.github.io
+baseurl: run
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
