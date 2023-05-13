@@ -1,8 +1,8 @@
-name: "Jekyll true minimal theme"
-description: "Lightweight theme"
+name: "Run Devil Run"
+description: "专注润学，共同建设地址: https://github.com/jingwendom/run"
 
-url: '' 
-baseurl: ''
+url: 'jingwendom.github.io/run' 
+baseurl: 'jingwendom.github.io/run'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
