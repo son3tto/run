@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>
+        {% if page.title %}
+            {{ page.title }}
+        {% else %} 
+            {{ site.name }} &mdash; {{ site.description }}
+        {% endif %}
+    </title>
+
+    {% if site.highlighter %}
+        <link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
+    {% endif %}
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="https://s1.chu0.com/src/img/png/fd/fdea54f673e54c4b9d57893a3e600614.png?e=1735488000&token=1srnZGLKZ0Aqlz6dk7yF4SkiYf4eP-YrEOdM1sob:u4TV2sZTOr9cfXrODdlFFMHvZjo=" type="image/x-icon" title="scottcgi">
+ 
+</head>
+
+<body>
+    {% include header.html %}
+
+    {{ content }}
+<hr>
+    <p><small> <i>Build with <a href="https://jekyllrb.com/">Jekyll</a> and  <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme</a></i> </small></p>
+</body>
+</html>
